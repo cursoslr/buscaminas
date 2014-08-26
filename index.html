@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Buscaminas</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script type="text/javascript" src="js/codigo.js"></script>
+</head>
+<body>
+
+	<div id="contenedor">
+
+		<div id="vidas"><img id="vida1" src="img/vida.gif"><img id="vida2" src="img/vida.gif"><img id="vida3" src="img/vida.gif"></div>
+
+		<table>
+			<tr>
+				<td>
+					<div id="celda00" class="fondoCelda" onclick="obtenY0(); obtenX0(); activar(this);">
+					</div>
+				</td>
+				<td>
+					<div id="celda01" class="fondoCelda" onclick="obtenY0(); obtenX1(); activar(this);">
+					</div>
+				</td>
+				<td>
+					<div id="celda02" class="fondoCelda" onclick="obtenY0(); obtenX2(); activar(this);">
+					</div>
+				</td>
+				<td>
+					<div id="celda03" class="fondoCelda" onclick="obtenY0(); obtenX3(); activar(this);">
+					</div>
+				</td>
+				<td>
+					<div id="celda04" class="fondoCelda" onclick="obtenY0(); obtenX4(); activar(this);">
+					</div>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<div id="celda10" class="fondoCelda" onclick="obtenY1(); obtenX0(); activar(this);">
+					</div>
+				</td>
+				<td>
+					<div id="celda11" class="fondoCelda" onclick="obtenY1(); obtenX1(); activar(this);">
+					</div>
+				</td>
+				<td>
+					<div id="celda12" class="fondoCelda" onclick="obtenY1(); obtenX2(); activar(this);">
+					</div>
+				</td>
+				<td>
+					<div id="celda13" class="fondoCelda" onclick="obtenY1(); obtenX3(); activar(this);">
+					</div>
+				</td>
+				<td>
+					<div id="celda14" class="fondoCelda" onclick="obtenY1(); obtenX4(); activar(this);">
+					</div>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<div id="celda20" class="fondoCelda" onclick="obtenY2(); obtenX0(); activar(this);">
+					</div>
+				</td>
+				<td>
+					<div id="celda21" class="fondoCelda" onclick="obtenY2(); obtenX1(); activar(this);">
+					</div>
+				</td>
+				<td>
+					<div id="celda22" class="fondoCelda" onclick="obtenY2(); obtenX2(); activar(this);">
+					</div>
+				</td>
+				<td>
+					<div id="celda23" class="fondoCelda" onclick="obtenY2(); obtenX3(); activar(this);">
+					</div>
+				</td>
+				<td>
+					<div id="celda24" class="fondoCelda" onclick="obtenY2(); obtenX4(); activar(this);">
+					</div>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<div id="celda30" class="fondoCelda" onclick="obtenY3(); obtenX0(); activar(this);">
+					</div>
+				</td>
+				<td>
+					<div id="celda31" class="fondoCelda" onclick="obtenY3(); obtenX1(); activar(this);">
+					</div>
+				</td>
+				<td>
+					<div id="celda32" class="fondoCelda" onclick="obtenY3(); obtenX2(); activar(this);">
+					</div>
+				</td>
+				<td>
+					<div id="celda33" class="fondoCelda" onclick="obtenY3(); obtenX3(); activar(this);">
+					</div>
+				</td>
+				<td>
+					<div id="celda34" class="fondoCelda" onclick="obtenY3(); obtenX4(); activar(this);">
+					</div>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<div id="celda40" class="fondoCelda" onclick="obtenY4(); obtenX0(); activar(this);">
+					</div>
+				</td>
+				<td>
+					<div id="celda41" class="fondoCelda" onclick="obtenY4(); obtenX1(); activar(this);">
+					</div>
+				</td>
+				<td>
+					<div id="celda42" class="fondoCelda" onclick="obtenY4(); obtenX2(); activar(this);">
+					</div>
+				</td>
+				<td>
+					<div id="celda43" class="fondoCelda" onclick="obtenY4(); obtenX3(); activar(this);">
+					</div>
+				</td>
+				<td>
+					<div id="celda44" class="fondoCelda" onclick="obtenY4(); obtenX4(); activar(this);">
+					</div>
+				</td>
+			</tr>
+
+		</table>
+
+		<div id="faltan"></div>
+		<input id="refrescar" type="button" value="Volver a intentar" onclick="window.location.reload(true);"></input>
+
+	</div> <!--div#contenedor-->
+
+	<script type="text/javascript"> inicio(); </script>
+
+</body>
+</html>
