@@ -1,0 +1,72 @@
+#contenedor {
+	text-align: center;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	border:solid #848484 5px;
+	border-spacing: 0px;
+}
+
+td {
+	padding:0px;
+}
+
+
+.fondoCelda {
+	width: 50px;
+	height: 50px;
+	background-image: url(http://i40.photobucket.com/albums/e241/cursoslr/gris_zps64d5714a.png);
+	text-align: center;
+}
+
+.fondoCelda img:hover {
+	cursor:pointer;
+}
+
+.mina {
+	width: 50px;
+	height: 50px;
+	background-image: url(http://i40.photobucket.com/albums/e241/cursoslr/mina_zps815be4c7.png);
+	text-align: center;
+}
+
+.numero {
+	width: 50px;
+	height: 50px;
+	background-image: url(http://i40.photobucket.com/albums/e241/cursoslr/numero_zps19818d39.png);
+	text-align: center;
+	font-size: 40px;
+}
+
+#vidas {
+	height: 50px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	
+}
+
+#vida1,
+#vida2, 
+#vida3 {
+	width: 50px;
+	height: 50px;
+}
+
+#vida2 {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#faltan,
+#refrescar {
+	font-family: Gulim !important;
+}
+
+#refrescar {
+	height: 40px;
+	margin-top: 20px;
+	font-size: 16px;
+}
